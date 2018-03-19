@@ -1,0 +1,19 @@
+<apex:page controller="SignupCreateController" showHeader="false" standardStylesheets="true" sidebar="false">
+  <apex:sectionHeader title="Visualforce Example" subtitle="Thank You"/>
+  <h1> You are good to go, login confirmation will be sent out soon</h1>
+  <apex:form >
+    <apex:pageBlock title="Signup Info">
+
+      <apex:pageBlockSection showHeader="false" columns="2">
+        <apex:outputField value="{!signup.firstName}" />
+        <apex:outputField value="{!signup.lastName}" />
+        <apex:outputField value="{!signup.signupemail}" />
+        <apex:outputField value="{!signup.username}" />
+        <apex:outputField value="{!signup.templateid}" />
+        <apex:outputField value="{!signup.company}" />
+      </apex:pageBlockSection>
+ 
+    </apex:pageBlock>
+  </apex:form>
+<h3>thanks, William</h3>
+</apex:page>

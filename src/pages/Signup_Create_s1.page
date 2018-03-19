@@ -1,0 +1,87 @@
+<apex:page controller="SignupCreateS1Controller" showHeader="false" standardStylesheets="false" sidebar="false">
+  <apex:sectionHeader title="" subtitle=""/>
+ <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ISVTE Org Signup</a>
+        </div>
+       <!--/
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+
+<h3>Trial Signup Form with Style</h3>
+
+  <apex:form >
+    <apex:pageMessages /> <!-- this is where the error messages will appear -->
+    <apex:pageBlock title="Signup Info">
+ <br>&nbsp;</br>
+      <apex:pageBlockButtons >
+        <apex:commandButton action="{!save}" value="Save"/>
+      </apex:pageBlockButtons>
+
+      <apex:pageBlockSection showHeader="false" columns="2">
+        <apex:inputField value="{!signup.firstName}" /> <br>&nbsp;</br>
+        <apex:inputField value="{!signup.lastName}" /> <br>&nbsp;</br>
+        <apex:inputField value="{!signup.signupemail}" />  <br>&nbsp;</br>
+        <apex:inputField value="{!signup.username}" /><br>&nbsp;</br>
+
+
+
+      </apex:pageBlockSection>
+
+    </apex:pageBlock>
+  </apex:form>
+
+
+
+
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+
+    <div style="position: relative; text-align: center">
+      <p style="position: fixed; bottom: 0; width:100%;"><font size="1"> William Yeh</font></p>
+    </div>
+  </body>
+</apex:page>

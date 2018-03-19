@@ -1,0 +1,26 @@
+<apex:page controller="SignupCreateController" showHeader="false" standardStylesheets="true" sidebar="false">
+  <apex:sectionHeader title="Visualforce Example" subtitle="Create a Signup Request"/>
+ 
+  <apex:form >
+    <apex:pageMessages /> <!-- this is where the error messages will appear -->
+    <apex:pageBlock title="Signup Info">
+ 
+      <apex:pageBlockButtons >
+        <apex:commandButton action="{!save}" value="Save"/>
+      </apex:pageBlockButtons>
+ 
+      <apex:pageBlockSection showHeader="false" columns="2">
+        <apex:inputField value="{!signup.firstName}" />
+        <apex:inputField value="{!signup.lastName}" />
+        <apex:inputField value="{!signup.signupemail}" />
+        <apex:inputField value="{!signup.username}" />
+        <apex:inputField value="{!signup.company}" />
+        <apex:inputField value="{!signup.templateid}" />
+        <apex:inputField id="us" value="{!signup.country}" />
+        
+      </apex:pageBlockSection>
+ 
+    </apex:pageBlock>
+  </apex:form>
+  By William Yeh
+</apex:page>

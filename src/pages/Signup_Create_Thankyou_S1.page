@@ -1,0 +1,64 @@
+<apex:page controller="SignupCreateController" showHeader="false" standardStylesheets="false" sidebar="false">
+  <head>
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ISVTE Org Signup</a>
+        </div>
+       <!--/
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+
+<h3>Provisioning S1 Demo Org</h3>
+
+  <h1>Your org is being provisioned, please wait for the login confirmation email</h1>
+  <h2>Note, it can take up to 45 min for you org to be ready. A quick start tab will be available in the demo org</h2>
+ <br/>
+ <a href='URL'>Link to Quick Start pdf</a>
+ <br/>
+<h3>Thanks, ISVTE Team</h3>
+
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</apex:page>
