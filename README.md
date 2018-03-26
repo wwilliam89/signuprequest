@@ -1,3 +1,4 @@
 # VF Form for Signup Request
-This VF form example lets you easily create new trial orgs via Signup Request object. You can let end user fill in the templateID or hardcode it in the controller.
-This VF page can also be used in customer communities, effectively creating a unauthenticated free trial signup page.
+This is an example VisualForce page that creates new trial orgs via Signup Request object. This simple to use form make signing up easy for end users just like the old servlet html form. You can hardcode specific trial templateID or leave a textfield for the user to fill in. 
+
+This VF page can also be used in customer communities, effectively creating an unauthenticated free trial signup page.
